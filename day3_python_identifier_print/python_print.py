@@ -39,10 +39,10 @@ comments:
 
 
 # Create a file and write output
-# with open("myfile.txt", "w") as my_file:
-#     print("Welcome to ETL Automation Labs", file=my_file)
-#     print("Learning Python Programming", file=my_file)
-#     print(100, 200, 300, file=my_file)
+with open("myfile.log", "w") as my_file:
+    print("Welcome to ETL Automation Labs", file=my_file)
+    print("Learning Python Programming", file=my_file)
+    print(100, 200, 300, file=my_file)
 
 import builtins
 
