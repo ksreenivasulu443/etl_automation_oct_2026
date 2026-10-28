@@ -60,9 +60,41 @@ doc str
 # ls.extend('etl')
 # print("details of ls extend ", ls, id(ls))
 
-ls =[1,2,4,5,6,7,8]
+ls =[1,2,4,5,6,7,8,2]
 print("ls details before extend", ls, id(ls))
+#
+# ls.insert(20,999)
+# # ls.insert(-20,999)
+#
+# print("ls[0]", ls[0])
+#
+# print("ls[-20]", ls[-20])
 
-ls.insert(4,"hello")
+# ls.remove(2)# 2 value
+#
+# ls.remove(8) # 8 value
 
-print("ls details after insert", ls, id(ls))
+ls.pop(3)# 3 is index
+
+# ls.clear()
+
+print("ls after clear", ls)
+
+
+ls3 = [1,5,7,2,0,99,87,101,'etl','automation']
+
+print("ls details before sort", ls3)
+# ls3.sort(reverse=True)
+
+ls3.reverse()
+
+print("ls details after reverse", ls3)
+
+
+t = frozenset({1,2,3})
+
+print("t", t, dir(t))
+
+d = {1:2}
+
+print("d", d, dir(d))
