@@ -1,3 +1,11 @@
 IndexError: string index out of range
 ValueError: substring not found
 AttributeError: 'list' object has no attribute 'appnd'. Did you mean: 'append'?
+ValueError: tuple.index(x): x not in tuple
+KeyError: 999
+ValueError: not enough values to unpack (expected 3, got 2)
+TypeError: calc() takes 2 positional arguments but 3 were given
+TypeError: calc() missing 1 required positional argument: 'b'
+TypeError: calc() got an unexpected keyword argument 'c'
+SyntaxError: positional argument follows keyword argument
+TypeError: calc() got multiple values for argument 'a'
