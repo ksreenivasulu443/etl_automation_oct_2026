@@ -11,3 +11,6 @@ def f(arg1, arg2, arg3=4, arg4=8 ): # default
 # f(4,5,arg2=6) #TypeError: f() got multiple values for argument 'arg2'
 # f(4,5,arg3=5,arg5=6) # TypeError: f() got an unexpected keyword argument 'arg5'
 f(4,5,5,arg3=2) # f() got multiple values for argument 'arg3'
+
+def f2(arg1, arg2, arg3=4, arg4=8 ): # default
+    print(arg1, arg2, arg3, arg4)

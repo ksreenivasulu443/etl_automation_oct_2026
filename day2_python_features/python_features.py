@@ -6,6 +6,7 @@ updated by:
 updated on:
 comments:
 '''
+
 # print('devide num with 0',1/0)
 # print('Welcome to ETL Automation Labs!') # This looks like natual english
 #
